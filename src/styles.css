@@ -1,0 +1,81 @@
+body, html{
+    background: #eaece5;
+    height: 100%;
+}
+
+
+.login-page {
+    width: 450px;
+    padding: 8% 0 0;
+    margin: auto;
+
+}
+
+
+
+.form {
+    position: relative;
+    z-index: 1;
+    border-radius: 16px;
+    background: #B2B2B2;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form h1 {
+    font-size: 700;
+    font-family: sans-serif;
+    color: rgb(32, 27, 27);
+}
+
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background:#EEEEEE;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #D8D8D8;
+    width: 100%;
+    border: 0;
+    padding: 10px;
+    color: #37393b;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background: #5b6e77;
+}
+
+.login-redes {
+
+    color: #37393b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mensaje {
+    font-size: 700;
+    font-family: sans-serif;
+    color: rgb(12, 11, 11);
+
+}
+
